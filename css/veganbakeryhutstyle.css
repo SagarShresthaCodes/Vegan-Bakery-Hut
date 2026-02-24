@@ -1,0 +1,989 @@
+@charset "UTF-8";
+article,
+aside,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+
+html,
+body,
+h1,
+h3,
+p,
+article,
+header,
+nav,
+footer {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    line-height: 1.6;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/*CSS Rules for the banner*/
+
+.banner {
+    background-color: rgb(237, 140, 124);
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headerContainer {
+    width: 85%;
+    margin: auto;
+    overflow: visible;
+}
+
+.logo {
+    float: left;
+    padding-top: 0.6%;
+    padding-left: 0.8%
+}
+
+img.logo {
+    min-width: 46%;
+    width: 45%;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    margin-left: 21px;
+    margin-right: 21px;
+    font-size: 18px;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+nav ul li a:hover {
+    color: lightgreen;
+}
+
+.linkOrder {
+    background-color: rgb(77, 57, 0);
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    margin: 5px 0px 8px 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: rgb(215, 140, 124);
+    padding: 10px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 110px;
+}
+
+nav ul li ul li a {
+    display: block;
+    padding: 3px 1px;
+    font-size: 14px;
+}
+
+nav ul li ul li a:hover {
+    background-color: rgb(77, 57, 0);
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+main {
+    background-color: rgb(255, 247, 244);
+    text-align: center;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*Hero image*/
+
+#hero {
+    min-height: 400px;
+    background: url('../images/cupCakes3.jpg') no-repeat 0 -253px;
+    /* background-size: cover; */
+    color: white;
+}
+
+#hero h1 {
+    margin-top: 115px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    font-weight: 425;
+}
+
+#hero p {
+    font-size: 18px;
+    font-weight: 640;
+}
+
+.welcomeHeader {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.linksToPages {
+    font-weight: bold;
+}
+
+.linksToPages:hover {
+    color: lightgreen;
+}
+
+
+/*Welcome message in Home page*/
+
+#homeWelcome {
+    margin: 40px 0px;
+}
+
+#homeWelcome h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#homeWelcome p {
+    margin: 0px 200px;
+}
+
+
+/*CSS rules for product descriptions in the Home page*/
+
+.imageHome {
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.imageHome:hover {
+    transform: scale(1.05);
+}
+
+.box {
+    float: left;
+    width: 22%;
+    padding: 16px;
+}
+
+.boxDescriptionCakes {
+    background-color: #bc9810;
+    color: white;
+    text-align: left;
+    padding: 18px 15px;
+    /* width: 78.60%; */
+    /* margin-left: 12px; */
+}
+
+.boxDescriptionCookies {
+    background-color: #ab831b;
+    color: white;
+    text-align: left;
+    padding: 18px 15px;
+    /* width: 78.60%;
+    margin-left: 12px; */
+}
+
+.boxDescriptionBrownies {
+    background-color: #9b6e25;
+    color: white;
+    text-align: left;
+    padding: 18px 15px;
+    /* width: 78.60%;
+    margin-left: 12px; */
+}
+
+.boxDescriptionSoyFree {
+    background-color: #8a5930;
+    color: white;
+    text-align: left;
+    padding: 18px 15px;
+    /* width: 78.60%;
+    margin-left: 12px; */
+}
+
+
+/*CSS rules for Footer*/
+
+.footerWrapper {
+    background-color: rgb(237, 140, 124);
+    color: white;
+    padding: 0.5% 2% 4% 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footerEmail {
+    float: left;
+    padding: 0.5% 2% 0.5% 0%;
+    font-size: 14px;
+}
+
+.footerEmail:hover {
+    color: lightgreen;
+}
+
+.footerPhone {
+    float: left;
+    padding: 0.5% 2%;
+    ;
+    font-size: 14px;
+}
+
+
+/* CSS rules for the font awesome icons */
+
+.fa {
+    padding: 8px 2px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 60%;
+}
+
+
+/* Hover effect to the font awesome icons */
+
+.fa:hover {
+    opacity: 0.6;
+}
+
+
+/* CSS Rules for social media brands */
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    float: right;
+}
+
+
+/* Instagram */
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    float: right;
+}
+
+
+/* Facebook */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    float: right;
+}
+
+
+/* CSS rules for different items pages under SHOP */
+
+.mainItems {
+    background-color: rgb(255, 247, 244);
+    text-align: center;
+    padding: 5px 10px 10px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.itemsPageTitle {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-left: 120px;
+    color: rgb(0, 0, 88);
+}
+
+.imgOfItems {
+    float: left;
+    margin: 0px 30px 10px 120px;
+    position: relative;
+}
+
+.imgOfItems:hover {
+    transform: scale(1.20);
+}
+
+.itemSection {
+    padding-bottom: 70px;
+    padding-top: 25px;
+    background-color: rgb(201, 185, 140);
+}
+
+.itemTitle {
+    font-size: 22px;
+    text-align: left;
+    font-weight: 800;
+    color: rgb(0, 0, 88);
+}
+
+.itemRate {
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.itemRateBulk {
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.itemIngredients {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 120px;
+}
+
+.itemWarning {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.placeAnOrderSection {
+    padding-bottom: 8px;
+    float: right;
+    margin-top: 12px;
+}
+
+.buttonOrder {
+    background-color: rgb(77, 57, 0);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 75px 4px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* CSS rules for ABOUT page */
+
+.mainAbout {
+    background-color: rgb(255, 247, 244);
+    padding-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.spotLightContainerAbout {
+    width: 100%;
+    background-color: rgb(201, 185, 140);
+    overflow: visible;
+    margin: 0px;
+    line-height: 1;
+    padding: 0px;
+}
+
+.spotLightContainerAbout header {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.spotLightContainerAbout p {
+    line-height: 1.2;
+    font-size: 25px;
+}
+
+
+/*CSS Rules for About section in the About page*/
+
+.aboutBox header {
+    font-size: 50px;
+    margin-bottom: 18px;
+}
+
+.aboutBox {
+    float: left;
+    width: 52%;
+}
+
+.aboutContent {
+    font-size: 16px;
+    margin: 4px 4px;
+    background-color: #e7e5e5;
+    color: black;
+    /* border-radius: 15px; */
+    border-bottom-left-radius: 15%;
+    padding: 5px 20px 64px 20px;
+    text-align: left;
+}
+
+.saritaImage {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+
+/*CSS Rules for Vegan section*/
+
+.whyVeganBox {
+    float: right;
+    width: 45%;
+}
+
+.whyVeganContent {
+    font-size: 16px;
+    margin: 4px 4px;
+    background-color: #575757;
+    color: white;
+    /* border-radius: 15px; */
+    border-top-right-radius: 15%;
+    padding: 5px 20px;
+    text-align: left;
+    color: rgb(224, 224, 224);
+}
+
+.whyVeganBox header {
+    font-size: 50px;
+    margin-bottom: 18px;
+}
+
+.whyVeganSubSection {
+    font-weight: 500;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.veganImage {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.inTextLinks {
+    font-weight: bold;
+    color: lightgreen;
+}
+
+.inTextLinks:hover {
+    font-weight: bold;
+    color: blue;
+}
+
+
+/*-------------------------------------------*/
+
+
+/*CSS rules for REVIEWS page*/
+
+
+/*Spotlight Review*/
+
+#spotLightReview {
+    font-size: 30px;
+    margin: 6px 300px 30px 300px;
+    padding: 25px 12px;
+    color: black;
+}
+
+.spotLightContainer {
+    width: 100%;
+    background-color: rgb(201, 185, 140);
+    overflow: visible;
+    margin: 0px;
+    line-height: 1;
+    padding: 0px;
+}
+
+#spotLightQuotation {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.reviewerName {
+    font-size: 20px;
+    text-align: right;
+    margin-top: 10px;
+}
+
+
+/*Other Reviews*/
+
+.reviewTitle {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.otherReviewerName {
+    font-size: 12px;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.reviewBox {
+    float: left;
+    width: 52%;
+}
+
+.reviews {
+    font-size: 16px;
+    margin: 4px 4px;
+    background-color: #e7e5e5;
+    color: black;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+
+/*Review Form*/
+
+.reviewFormBox {
+    float: right;
+    width: 45%;
+}
+
+.reviewForm {
+    font-size: 16px;
+    margin: 4px 4px;
+    background-color: #575757;
+    color: rgb(224, 224, 224);
+    border-radius: 15px;
+    padding: 5px 20px;
+    text-align: left;
+}
+
+.reviewForm h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.label {
+    font-weight: bold;
+    margin: 8px 0px 0px 0px;
+}
+
+.buttonType1 {
+    background-color: rgb(77, 57, 0);
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    margin: 10px 0px 8px 0px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+input[type=text] {
+    width: 80%;
+    border: 1px solid #575757;
+    margin-left: 0px;
+    padding: 5px;
+    box-sizing: content-box;
+}
+
+textarea {
+    width: 80%;
+    padding: 5px;
+    resize: vertical;
+    border: 1px solid #575757;
+    max-height: 90px;
+    margin-left: 0px;
+}
+
+::placeholder {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*CSS rules for Contact page*/
+
+
+/*ORDER section*/
+
+.orderForm {
+    font-size: 16px;
+    margin: 4px 4px;
+    background-color: rgb(201, 185, 140);
+    color: black;
+    padding: 10px 10px;
+    border-bottom-left-radius: 15%;
+}
+
+.orderFormTitle {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.orderFormSubTitle {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.orderFormBox {
+    float: left;
+    width: 52%;
+}
+
+.orderFormBox p {
+    text-align: right;
+    margin-top: 5px;
+    padding-right: 5px;
+}
+
+.dropDown {
+    width: 80%;
+    border: 1px solid #575757;
+    margin-left: 0px;
+    padding: 5px;
+    box-sizing: content-box;
+}
+
+.dropDownText {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(128, 128, 128);
+}
+
+#deliveryTitle {
+    font-weight: 850;
+    font-size: 20px;
+}
+
+#deliveryHours {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#deliveryInfo {
+    font-size: 12px;
+}
+
+.textBold {
+    font-weight: bold;
+}
+
+
+/*CONTACT section*/
+
+.mainContact {
+    background-color: rgb(255, 247, 244);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inputOrder {
+    text-align: left;
+}
+
+.contactFormBox {
+    float: right;
+    width: 45%;
+}
+
+.contactForm {
+    font-size: 16px;
+    margin: 4px 4px;
+    background-color: #575757;
+    color: rgb(224, 224, 224);
+    /* border-radius: 15px; */
+    padding: 5px 20px;
+    border-top-right-radius: 15%;
+}
+
+.contactForm h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.contactForm p {
+    margin-bottom: 10px;
+}
+
+.contactDetails:hover {
+    color: lightgreen;
+}
+
+
+/* medium display only */
+
+@media (min-width: 481px) and (max-width:768px) {
+    .box,
+    nav,
+    .logo,
+    .box {
+        float: none;
+    }
+    /*Home page*/
+    #hero {
+        min-height: 350px;
+    }
+    #hero h1 {
+        margin-top: 50px;
+    }
+    /*Welcome message in Home page*/
+    #homeWelcome {
+        margin: 20px 0px;
+    }
+    #homeWelcome p {
+        margin: 0px 20px;
+    }
+    */ .imageHome:hover {
+        transform: none;
+    }
+    .box {
+        float: left;
+        width: 21%;
+        padding: 10px;
+    }
+    .boxDescriptionCakes {
+        min-height: 350px;
+    }
+    .boxDescriptionCookies {
+        min-height: 350px;
+    }
+    .boxDescriptionBrownies {
+        min-height: 350px;
+    }
+    .boxDescriptionSoyFree {
+        min-height: 350px;
+    }
+    /*...................................*/
+    /*Reviews page*/
+    #spotLightReview {
+        font-size: 28px;
+        margin: 6px 30px 50px 30px;
+    }
+    textarea {
+        max-height: 307px;
+    }
+    /*...................................*/
+    /*About page*/
+    .aboutBox header {
+        font-size: 25px;
+    }
+    .aboutContent {
+        padding: 5px 20px 156px 20px;
+    }
+    .whyVeganBox header {
+        font-size: 25px;
+    }
+    /*...................................*/
+    /*COOKIES page*/
+    .itemsPageTitle {
+        margin-left: 60px;
+    }
+    .imgOfItems:hover {
+        transform: none;
+    }
+    .imgOfItems {
+        margin: 0px 30px 10px 60px;
+    }
+    .itemIngredients {
+        font-size: 14px;
+    }
+    .itemWarning {
+        font-size: 14px;
+    }
+    .buttonOrder {
+        margin: 1px 75px 1px 10px;
+    }
+}
+
+
+/* small display only */
+
+@media (max-width:480px) {
+    /*Home page*/
+    #hero {
+        min-height: 250px;
+    }
+    #hero h1 {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    /*Welcome message in Home page*/
+    #homeWelcome {
+        margin: 20px 0px;
+    }
+    #homeWelcome p {
+        margin: 0px 20px;
+    }
+    */ .imageHome:hover {
+        transform: none;
+    }
+    .box {
+        float: left;
+        width: 100%;
+        padding: 10px;
+    }
+    .boxDescriptionCakes {
+        min-height: 50px;
+    }
+    .boxDescriptionCookies {
+        min-height: 50px;
+    }
+    .boxDescriptionBrownies {
+        min-height: 50px;
+    }
+    .boxDescriptionSoyFree {
+        min-height: 50px;
+    }
+    /*...................................*/
+    /*Reviews page*/
+    #spotLightReview {
+        font-size: 22px;
+        margin: 6px 15px 50px 15px;
+    }
+    #spotLightQuotation {
+        font-size: 31px;
+        font-weight: bold;
+        font-family: 'perpetua-tilting';
+    }
+    .reviewFormBox {
+        width: 100%;
+    }
+    .reviewBox {
+        float: left;
+        width: 100%;
+    }
+    textarea {
+        max-height: 307px;
+    }
+    /*...................................*/
+    /*About page*/
+    .whyVeganBox {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .aboutBox {
+        float: none;
+        width: 100%;
+    }
+    .aboutBox header {
+        font-size: 28px;
+    }
+    .whyVeganBox header {
+        font-size: 28px;
+    }
+    .spotLightContainerAbout p {
+        font-size: 20px;
+    }
+    /*...................................*/
+    /*COOKIES page*/
+    .itemsPageTitle {
+        margin-left: 100px;
+    }
+    .imgOfItems {
+        margin: 0px 15px 10px 20px;
+    }
+    .imgOfItems:hover {
+        transform: none;
+    }
+    .itemSection {
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+    .itemTitle {
+        font-size: 22px;
+    }
+    .itemRate {
+        margin-top: 15px;
+    }
+    .itemRateBulk {
+        margin-top: 3px;
+    }
+    .itemIngredients {
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-right: 55px;
+    }
+    .itemWarning {
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-right: 55px;
+    }
+    .placeAnOrderSection {
+        float: none;
+    }
+    .buttonOrder {
+        display: block;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2px;
+        padding: 10px 20px;
+    }
+    /*...................................*/
+    /*ORDER/CONTACT page*/
+    .orderFormBox {
+        float: none;
+        width: 100%;
+    }
+    .contactFormBox {
+        float: none;
+        width: 100%;
+    }
+    img.logo {
+        min-width: 46%;
+        width: 100%;
+        margin-right: 50px;
+    }
+}
