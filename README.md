@@ -1,5 +1,4 @@
 # Vegan-Bakery-Hut
-TO DO
 A website for Vegan Bakery Hut, a home-based business focused on supplying/delivering vegan baked goods to local businesses and people. It is a multi-page website which has the following pages:
 
 - Home
